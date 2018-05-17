@@ -1,0 +1,3 @@
+TAGS="my smu"
+UNDOTTED="bin"
+EXCLUDES="base/*"
