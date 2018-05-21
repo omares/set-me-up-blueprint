@@ -5,6 +5,6 @@
 export SMU_BLUEPRINT=${SMU_BLUEPRINT:-"omares/set-me-up-blueprint"}
 
 # the set-me-up version to download
-export SMU_VERSION=${SMU_VERSION:-"master"}
+export SMU_VERSION=${SMU_VERSION:-"1.0.0"}
 
 bash <(curl --progress-bar -L https://raw.githubusercontent.com/omares/set-me-up/master/.dotfiles/tag-smu/modules/install.sh) $@
