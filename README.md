@@ -11,11 +11,13 @@ A template to manage your [set-me-up](https://github.com/omares/set-me-up) setup
 ## How to use
 
 1. [Read the docs](https://github.com/omares/set-me-up#set-me-up)
-2. Fork this repository.  
-3. Add your customizations inside the [my tag](.dotfiles/tag-my).  
-4. Change the [`SMU_BLUEPRINT` variable value](.dotfiles/tag-my/modules/install.sh#L5) to your github `user\repo` combination.  
+2. Fork this repository.
+3. Add your customizations inside the [my tag](.dotfiles/tag-my).
+4. Change the [`SMU_BLUEPRINT` variable value](.dotfiles/tag-my/modules/install.sh#L5) to your github `user\repo` combination.
 5. Use the installer to obtain set-me-up and your blueprint setup
-   
-       bash <(curl --progress-bar -L https://raw.githubusercontent.com/<YOURUSERNAME>/set-me-up-blueprint/master/.dotfiles/tag-smu/modules/install.sh)
-       
-   Please change `<YOURUSERNAME>` to your github username:
+
+```bash
+bash <(curl --progress-bar -L https://raw.githubusercontent.com/<YOURUSERNAME>/set-me-up-blueprint/master/.dotfiles/tag-my/modules/install.sh)
+```
+
+Please change `<YOURUSERNAME>` to your github username:
